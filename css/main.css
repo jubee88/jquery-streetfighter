@@ -41,5 +41,6 @@ body {
 	position: relative;
 	top: 161px;
 	left: 551px;
+	display: none;
 	float: left;
 }
