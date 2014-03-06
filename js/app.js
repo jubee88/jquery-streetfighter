@@ -12,7 +12,14 @@ $(document).ready(function() {
 		$(".ryu-ready").hide();
 		$(".ryu-throwing").show();
 		$(".hadouken").show();
-		// show hadouken and animate it to the right of the screen
+		.animate(
+			{"left": "300"},
+			500,
+			function() {
+				$(this).hide();
+				$(this).css("left", "551px");
+			}
+			);
 	})
 	.mouseup(function() {
 		$(".ryu-throwing").hide();
