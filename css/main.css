@@ -10,13 +10,26 @@ body {
 	height: 500px;
 }
 
-.ryu-ready, .ryu-still, .ryu-throwing {
+p {
+	float: right;
+	width: 300px;
+	padding: 70px 300px;
+	text-align: center;
+	font-size: 30px;
+	font-family: papyrus, Arial;
+}
+
+.ryu-ready, .ryu-still, .ryu-throwing, .ryu-cool {
 	width: 659px;
 	height: 494px;
 }
 
-.ryu-ready, .ryu-throwing {
+.ryu-ready, .ryu-throwing, .ryu-cool {
 	display: none;
+}
+
+.ryu-cool {
+	background-image: url("../images/ryu-cool.gif");
 }
 
 .ryu-ready {
